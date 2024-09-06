@@ -1,0 +1,107 @@
+/* body{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: snow;
+} */
+
+.navbar-brand::first-letter{
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-menu {
+ color: snow;
+ }
+.dropdown-menu a:hover {
+ background-color: red;
+ border-radius: 2%;
+}
+
+#carouselExampleIndicators {
+    max-width: 1000px;
+    margin: 3px auto; 
+  }
+
+  .navbar {
+    margin-bottom: 5px; 
+  }
+
+  body {
+    background-color: #2c2c2c;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+.section-title {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.movie-card, .episode-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.movie-card img, .episode-card img {
+    width: 100%;
+    height: auto;
+}
+.movie-card .card-body, .episode-card .card-body {
+    padding: 10px;
+}
+.movie-card .badge, .episode-card .badge {
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+.episode-list {
+    list-style: none;
+    padding: 0;
+}
+.episode-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.episode-list img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.episode-list .episode-info {
+    flex-grow: 1;
+}
+.episode-list .episode-info h6 {
+    margin: 0;
+    font-size: 1rem;
+}
+.episode-list .episode-info p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.episode-info{
+    margin-left: 10px;
+}
+
+
+.progress-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px; /* المسافة من اليمين */
+}
+
+.progress {
+    background-color: #e9ecef; /* خلفية الشريط التقدمي إذا رغبت في تغييرها */
+}
+.card-group{
+    padding: 5px;
+    margin: 5px;
+}
+
